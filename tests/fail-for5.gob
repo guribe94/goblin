@@ -1,0 +1,24 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+  bool test(entity p) {
+    int i;
+
+    for (i = 0; i < 10 ; i = i + 1) {
+    foo(); /* Error: no function foo */
+    return true;
+    }
+  }
+}

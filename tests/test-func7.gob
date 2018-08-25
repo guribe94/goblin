@@ -1,0 +1,15 @@
+world[1,1] {
+  num a;
+  a = foo(73);
+  print(a);
+  exit;
+}
+entities {}
+functions {
+  num foo(num c)
+  {
+    num b;
+    b = c + 42;
+    return b;
+  }
+}

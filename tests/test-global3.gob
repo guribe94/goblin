@@ -1,0 +1,11 @@
+world[1,1] {
+  bool rows;
+  bool cols;
+  rows = true;
+  cols = false;
+  printb(rows);
+  printb(cols);
+  exit;
+}
+entities {}
+functions {}

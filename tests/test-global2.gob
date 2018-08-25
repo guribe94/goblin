@@ -1,0 +1,8 @@
+world[1,1] {
+  num rows; /* Should hide the global rows */
+  rows = 42;
+  print(rows);
+  exit;
+}
+entities {}
+functions {}

@@ -1,0 +1,15 @@
+world[20,40] {
+  if(peek(0,0) is empty) {
+    place(player, 0, 0);
+  }
+  if(peek(0,0) is empty) {
+    print(5);
+  } else {
+    print(1);
+  }
+  exit;
+}
+entities {
+  @:player {}
+}
+functions {}

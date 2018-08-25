@@ -1,0 +1,17 @@
+#!/bin/bash -e
+
+
+callDir="$(pwd)"
+cd "$(dirname "$0")"
+
+
+set +e
+    ./goblin.native < "$callDir"/$1 >a.ll
+set -e
+
+name=$(basename "$1" | cut -d. -f1)
+clang -emit-llvm -S -c csrc/goblin_helper.c
+clang  a.ll goblin_helper.ll -o $name &> /dev/null
+rm a.ll goblin_helper.ll
+echo "Successfully Gobbled"
+echo "Generated $name executable"

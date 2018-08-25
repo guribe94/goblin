@@ -1,0 +1,21 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+  bool test(entity p) {
+    int i;
+    for (i = 0; i < 10 ; i = j + 1) {} /* j undefined */
+    return true;
+  }
+}

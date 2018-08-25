@@ -1,0 +1,11 @@
+world[1,1] {
+  exit;
+}
+entities {}
+functions {
+
+  num foo(num a)
+  {
+    return a;
+  }
+}

@@ -1,0 +1,2574 @@
+==================================
+Testing: fail-assign1.gob
+[0;32mfail-assign1.gob passed![0m
+==================================
+Testing: fail-assign2.gob
+[0;32mfail-assign2.gob passed![0m
+==================================
+Testing: fail-assign3.gob
+[0;32mfail-assign3.gob passed![0m
+==================================
+Testing: fail-dead1.gob
+[0;32mfail-dead1.gob passed![0m
+==================================
+Testing: fail-dead2.gob
+[0;32mfail-dead2.gob passed![0m
+==================================
+Testing: fail-for1.gob
+[0;32mfail-for1.gob passed![0m
+==================================
+Testing: fail-for2.gob
+[0;32mfail-for2.gob passed![0m
+==================================
+Testing: fail-for3.gob
+[0;32mfail-for3.gob passed![0m
+==================================
+Testing: fail-for4.gob
+[0;32mfail-for4.gob passed![0m
+==================================
+Testing: fail-for5.gob
+[0;32mfail-for5.gob passed![0m
+==================================
+Testing: test-add1.gob
+[0;31mtest-add1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-arith1.gob
+[0;31mtest-arith1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-arith2.gob
+[0;31mtest-arith2.gob FAILED[0m
+Expected Output:
+11
+
+Generated Output:
+
+==================================
+Testing: test-arith3.gob
+[0;31mtest-arith3.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+
+==================================
+Testing: test-fib.gob
+[0;31mtest-fib.gob FAILED[0m
+Expected Output:
+1
+1
+2
+3
+5
+8
+
+Generated Output:
+
+==================================
+Testing: test-for1.gob
+[0;31mtest-for1.gob FAILED[0m
+Expected Output:
+0
+1
+2
+3
+4
+42
+
+Generated Output:
+
+==================================
+Testing: test-for2.gob
+[0;32mtest-for2.gob passed![0m
+==================================
+Testing: test-func1.gob
+[0;31mtest-func1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-func2.gob
+[0;31mtest-func2.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+
+==================================
+Testing: test-func3.gob
+[0;31mtest-func3.gob FAILED[0m
+Expected Output:
+42
+17
+192
+8
+
+Generated Output:
+
+==================================
+Testing: test-func4.gob
+[0;31mtest-func4.gob FAILED[0m
+Expected Output:
+62
+
+Generated Output:
+
+==================================
+Testing: test-func5.gob
+[0;32mtest-func5.gob passed![0m
+==================================
+Testing: test-func6.gob
+[0;31mtest-func6.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-func7.gob
+[0;32mtest-func7.gob passed![0m
+==================================
+Testing: test-func8.gob
+[0;31mtest-func8.gob FAILED[0m
+Expected Output:
+43
+
+Generated Output:
+
+==================================
+Testing: test-gcd.gob
+[0;31mtest-gcd.gob FAILED[0m
+Expected Output:
+2
+3
+11
+
+Generated Output:
+
+==================================
+Testing: test-gcd2.gob
+[0;31mtest-gcd2.gob FAILED[0m
+Expected Output:
+7
+4
+11
+
+Generated Output:
+
+==================================
+Testing: test-global1.gob
+[0;31mtest-global1.gob FAILED[0m
+Expected Output:
+42
+21
+43
+22
+
+Generated Output:
+
+==================================
+Testing: test-global2.gob
+[0;32mtest-global2.gob passed![0m
+==================================
+Testing: test-global3.gob
+[0;31mtest-global3.gob FAILED[0m
+Expected Output:
+1
+0
+
+Generated Output:
+
+==================================
+Testing: test-hello.gob
+[0;31mtest-hello.gob FAILED[0m
+Expected Output:
+42
+71
+1
+
+Generated Output:
+
+==================================
+Testing: test-if1.gob
+[0;31mtest-if1.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-if2.gob
+[0;31mtest-if2.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-if3.gob
+[0;31mtest-if3.gob FAILED[0m
+Expected Output:
+17
+
+Generated Output:
+
+==================================
+Testing: test-if4.gob
+[0;31mtest-if4.gob FAILED[0m
+Expected Output:
+8
+17
+
+Generated Output:
+
+==================================
+Testing: test-if5.gob
+[0;31mtest-if5.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-local1.gob
+[0;31mtest-local1.gob FAILED[0m
+Expected Output:
+84
+
+Generated Output:
+
+==================================
+Testing: test-local2.gob
+[0;31mtest-local2.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+
+==================================
+Testing: test-ops1.gob
+[0;31mtest-ops1.gob FAILED[0m
+Expected Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+Generated Output:
+
+==================================
+Testing: test-ops2.gob
+[0;31mtest-ops2.gob FAILED[0m
+Expected Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+Generated Output:
+
+==================================
+Testing: test-var1.gob
+[0;31mtest-var1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-while1.gob
+[0;31mtest-while1.gob FAILED[0m
+Expected Output:
+5
+4
+3
+2
+1
+42
+
+Generated Output:
+
+==================================
+Testing: test-while2.gob
+[0;31mtest-while2.gob FAILED[0m
+Expected Output:
+14
+
+Generated Output:
+
+==================================
+Testing: fail-assign1.gob
+[0;32mfail-assign1.gob passed![0m
+==================================
+Testing: fail-assign2.gob
+[0;32mfail-assign2.gob passed![0m
+==================================
+Testing: fail-assign3.gob
+[0;32mfail-assign3.gob passed![0m
+==================================
+Testing: fail-dead1.gob
+[0;32mfail-dead1.gob passed![0m
+==================================
+Testing: fail-dead2.gob
+[0;32mfail-dead2.gob passed![0m
+==================================
+Testing: fail-for1.gob
+[0;32mfail-for1.gob passed![0m
+==================================
+Testing: fail-for2.gob
+[0;32mfail-for2.gob passed![0m
+==================================
+Testing: fail-for3.gob
+[0;32mfail-for3.gob passed![0m
+==================================
+Testing: fail-for4.gob
+[0;32mfail-for4.gob passed![0m
+==================================
+Testing: fail-for5.gob
+[0;32mfail-for5.gob passed![0m
+==================================
+Testing: test-add1.gob
+[0;31mtest-add1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-arith1.gob
+[0;31mtest-arith1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-arith2.gob
+[0;31mtest-arith2.gob FAILED[0m
+Expected Output:
+11
+
+Generated Output:
+
+==================================
+Testing: test-arith3.gob
+[0;31mtest-arith3.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+
+==================================
+Testing: test-fib.gob
+[0;31mtest-fib.gob FAILED[0m
+Expected Output:
+1
+1
+2
+3
+5
+8
+
+Generated Output:
+
+==================================
+Testing: test-for1.gob
+[0;31mtest-for1.gob FAILED[0m
+Expected Output:
+0
+1
+2
+3
+4
+42
+
+Generated Output:
+
+==================================
+Testing: test-for2.gob
+[0;32mtest-for2.gob passed![0m
+==================================
+Testing: test-func1.gob
+[0;31mtest-func1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-func2.gob
+[0;31mtest-func2.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+
+==================================
+Testing: test-func3.gob
+[0;31mtest-func3.gob FAILED[0m
+Expected Output:
+42
+17
+192
+8
+
+Generated Output:
+
+==================================
+Testing: test-func4.gob
+[0;31mtest-func4.gob FAILED[0m
+Expected Output:
+62
+
+Generated Output:
+
+==================================
+Testing: test-func5.gob
+[0;32mtest-func5.gob passed![0m
+==================================
+Testing: test-func6.gob
+[0;31mtest-func6.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-func7.gob
+[0;32mtest-func7.gob passed![0m
+==================================
+Testing: test-func8.gob
+[0;31mtest-func8.gob FAILED[0m
+Expected Output:
+43
+
+Generated Output:
+
+==================================
+Testing: test-gcd.gob
+[0;31mtest-gcd.gob FAILED[0m
+Expected Output:
+2
+3
+11
+
+Generated Output:
+
+==================================
+Testing: test-gcd2.gob
+[0;31mtest-gcd2.gob FAILED[0m
+Expected Output:
+7
+4
+11
+
+Generated Output:
+
+==================================
+Testing: test-global1.gob
+[0;31mtest-global1.gob FAILED[0m
+Expected Output:
+42
+21
+43
+22
+
+Generated Output:
+
+==================================
+Testing: test-global2.gob
+[0;31mtest-global2.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-global3.gob
+[0;31mtest-global3.gob FAILED[0m
+Expected Output:
+1
+0
+
+Generated Output:
+
+==================================
+Testing: test-hello.gob
+[0;31mtest-hello.gob FAILED[0m
+Expected Output:
+42
+71
+1
+
+Generated Output:
+
+==================================
+Testing: test-if1.gob
+[0;31mtest-if1.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-if2.gob
+[0;31mtest-if2.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-if3.gob
+[0;31mtest-if3.gob FAILED[0m
+Expected Output:
+17
+
+Generated Output:
+
+==================================
+Testing: test-if4.gob
+[0;31mtest-if4.gob FAILED[0m
+Expected Output:
+8
+17
+
+Generated Output:
+
+==================================
+Testing: test-if5.gob
+[0;31mtest-if5.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+
+==================================
+Testing: test-local1.gob
+[0;31mtest-local1.gob FAILED[0m
+Expected Output:
+84
+
+Generated Output:
+
+==================================
+Testing: test-local2.gob
+[0;31mtest-local2.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+
+==================================
+Testing: test-ops1.gob
+[0;31mtest-ops1.gob FAILED[0m
+Expected Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+Generated Output:
+
+==================================
+Testing: test-ops2.gob
+[0;31mtest-ops2.gob FAILED[0m
+Expected Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+Generated Output:
+
+==================================
+Testing: test-var1.gob
+[0;31mtest-var1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+
+==================================
+Testing: test-while1.gob
+[0;31mtest-while1.gob FAILED[0m
+Expected Output:
+5
+4
+3
+2
+1
+42
+
+Generated Output:
+
+==================================
+Testing: test-while2.gob
+[0;31mtest-while2.gob FAILED[0m
+Expected Output:
+14
+
+Generated Output:
+
+==================================
+Testing: fail-assign1.gob
+[0;32mfail-assign1.gob passed![0m
+==================================
+Testing: fail-assign2.gob
+[0;32mfail-assign2.gob passed![0m
+==================================
+Testing: fail-assign3.gob
+[0;32mfail-assign3.gob passed![0m
+==================================
+Testing: fail-dead1.gob
+[0;32mfail-dead1.gob passed![0m
+==================================
+Testing: fail-dead2.gob
+[0;32mfail-dead2.gob passed![0m
+==================================
+Testing: fail-for1.gob
+[0;32mfail-for1.gob passed![0m
+==================================
+Testing: fail-for2.gob
+[0;32mfail-for2.gob passed![0m
+==================================
+Testing: fail-for3.gob
+[0;32mfail-for3.gob passed![0m
+==================================
+Testing: fail-for4.gob
+[0;32mfail-for4.gob passed![0m
+==================================
+Testing: fail-for5.gob
+[0;32mfail-for5.gob passed![0m
+==================================
+Testing: fail-func1.gob
+[0;32mfail-func1.gob passed![0m
+==================================
+Testing: fail-func2.gob
+[0;32mfail-func2.gob passed![0m
+==================================
+Testing: fail-func3.gob
+[0;32mfail-func3.gob passed![0m
+==================================
+Testing: fail-func4.gob
+[0;32mfail-func4.gob passed![0m
+==================================
+Testing: fail-func5.gob
+[0;32mfail-func5.gob passed![0m
+==================================
+Testing: fail-func6.gob
+[0;32mfail-func6.gob passed![0m
+==================================
+Testing: test-add1.gob
+[0;32mtest-add1.gob passed![0m
+==================================
+Testing: test-arith1.gob
+[0;32mtest-arith1.gob passed![0m
+==================================
+Testing: test-arith2.gob
+[0;32mtest-arith2.gob passed![0m
+==================================
+Testing: test-arith3.gob
+[0;32mtest-arith3.gob passed![0m
+==================================
+Testing: test-col.gob
+[0;32mtest-col.gob passed![0m
+==================================
+Testing: test-fib.gob
+[0;32mtest-fib.gob passed![0m
+==================================
+Testing: test-field.gob
+[0;32mtest-field.gob passed![0m
+==================================
+Testing: test-field1.gob
+[0;32mtest-field1.gob passed![0m
+==================================
+Testing: test-for1.gob
+[0;32mtest-for1.gob passed![0m
+==================================
+Testing: test-for2.gob
+[0;32mtest-for2.gob passed![0m
+==================================
+Testing: test-func1.gob
+[0;32mtest-func1.gob passed![0m
+==================================
+Testing: test-func2.gob
+[0;32mtest-func2.gob passed![0m
+==================================
+Testing: test-func3.gob
+[0;32mtest-func3.gob passed![0m
+==================================
+Testing: test-func4.gob
+[0;32mtest-func4.gob passed![0m
+==================================
+Testing: test-func5.gob
+[0;32mtest-func5.gob passed![0m
+==================================
+Testing: test-func6.gob
+[0;32mtest-func6.gob passed![0m
+==================================
+Testing: test-func7.gob
+[0;32mtest-func7.gob passed![0m
+==================================
+Testing: test-func8.gob
+[0;32mtest-func8.gob passed![0m
+==================================
+Testing: test-gcd.gob
+[0;32mtest-gcd.gob passed![0m
+==================================
+Testing: test-gcd2.gob
+[0;32mtest-gcd2.gob passed![0m
+==================================
+Testing: test-global1.gob
+[0;32mtest-global1.gob passed![0m
+==================================
+Testing: test-global2.gob
+[0;32mtest-global2.gob passed![0m
+==================================
+Testing: test-global3.gob
+[0;32mtest-global3.gob passed![0m
+==================================
+Testing: test-hello.gob
+[0;32mtest-hello.gob passed![0m
+==================================
+Testing: test-if1.gob
+[0;32mtest-if1.gob passed![0m
+==================================
+Testing: test-if2.gob
+[0;32mtest-if2.gob passed![0m
+==================================
+Testing: test-if3.gob
+[0;32mtest-if3.gob passed![0m
+==================================
+Testing: test-if4.gob
+[0;32mtest-if4.gob passed![0m
+==================================
+Testing: test-if5.gob
+[0;32mtest-if5.gob passed![0m
+==================================
+Testing: test-is.gob
+[0;32mtest-is.gob passed![0m
+==================================
+Testing: test-local1.gob
+[0;32mtest-local1.gob passed![0m
+==================================
+Testing: test-local2.gob
+[0;32mtest-local2.gob passed![0m
+==================================
+Testing: test-move.gob
+[0;32mtest-move.gob passed![0m
+==================================
+Testing: test-ops1.gob
+[0;32mtest-ops1.gob passed![0m
+==================================
+Testing: test-ops2.gob
+[0;32mtest-ops2.gob passed![0m
+==================================
+Testing: test-peek.gob
+[0;32mtest-peek.gob passed![0m
+==================================
+Testing: test-place.gob
+[0;32mtest-place.gob passed![0m
+==================================
+Testing: test-remove.gob
+[0;32mtest-remove.gob passed![0m
+==================================
+Testing: test-row.gob
+[0;32mtest-row.gob passed![0m
+==================================
+Testing: test-var1.gob
+[0;32mtest-var1.gob passed![0m
+==================================
+Testing: test-while1.gob
+[0;32mtest-while1.gob passed![0m
+==================================
+Testing: test-while2.gob
+[0;32mtest-while2.gob passed![0m
+==================================
+Testing: fail-assign1.gob
+[0;32mfail-assign1.gob passed![0m
+==================================
+Testing: fail-assign2.gob
+[0;32mfail-assign2.gob passed![0m
+==================================
+Testing: fail-assign3.gob
+[0;32mfail-assign3.gob passed![0m
+==================================
+Testing: fail-dead1.gob
+[0;32mfail-dead1.gob passed![0m
+==================================
+Testing: fail-dead2.gob
+[0;32mfail-dead2.gob passed![0m
+==================================
+Testing: fail-for1.gob
+[0;32mfail-for1.gob passed![0m
+==================================
+Testing: fail-for2.gob
+[0;32mfail-for2.gob passed![0m
+==================================
+Testing: fail-for3.gob
+[0;32mfail-for3.gob passed![0m
+==================================
+Testing: fail-for4.gob
+[0;32mfail-for4.gob passed![0m
+==================================
+Testing: fail-for5.gob
+[0;32mfail-for5.gob passed![0m
+==================================
+Testing: fail-func1.gob
+[0;32mfail-func1.gob passed![0m
+==================================
+Testing: fail-func2.gob
+[0;32mfail-func2.gob passed![0m
+==================================
+Testing: fail-func3.gob
+[0;32mfail-func3.gob passed![0m
+==================================
+Testing: fail-func4.gob
+[0;32mfail-func4.gob passed![0m
+==================================
+Testing: fail-func5.gob
+[0;32mfail-func5.gob passed![0m
+==================================
+Testing: fail-func6.gob
+[0;32mfail-func6.gob passed![0m
+==================================
+Testing: test-add1.gob
+[0;32mtest-add1.gob passed![0m
+==================================
+Testing: test-arith1.gob
+[0;32mtest-arith1.gob passed![0m
+==================================
+Testing: test-arith2.gob
+[0;32mtest-arith2.gob passed![0m
+==================================
+Testing: test-arith3.gob
+[0;32mtest-arith3.gob passed![0m
+==================================
+Testing: test-col.gob
+[0;32mtest-col.gob passed![0m
+==================================
+Testing: test-fib.gob
+[0;32mtest-fib.gob passed![0m
+==================================
+Testing: test-field.gob
+[0;32mtest-field.gob passed![0m
+==================================
+Testing: test-field1.gob
+[0;32mtest-field1.gob passed![0m
+==================================
+Testing: test-for1.gob
+[0;32mtest-for1.gob passed![0m
+==================================
+Testing: test-func1.gob
+[0;32mtest-func1.gob passed![0m
+==================================
+Testing: test-func2.gob
+[0;32mtest-func2.gob passed![0m
+==================================
+Testing: test-func3.gob
+[0;32mtest-func3.gob passed![0m
+==================================
+Testing: test-func4.gob
+[0;32mtest-func4.gob passed![0m
+==================================
+Testing: test-func5.gob
+[0;32mtest-func5.gob passed![0m
+==================================
+Testing: test-func6.gob
+[0;32mtest-func6.gob passed![0m
+==================================
+Testing: test-func7.gob
+[0;32mtest-func7.gob passed![0m
+==================================
+Testing: test-func8.gob
+[0;32mtest-func8.gob passed![0m
+==================================
+Testing: test-gcd.gob
+[0;32mtest-gcd.gob passed![0m
+==================================
+Testing: test-gcd2.gob
+[0;32mtest-gcd2.gob passed![0m
+==================================
+Testing: test-global1.gob
+[0;32mtest-global1.gob passed![0m
+==================================
+Testing: test-global2.gob
+[0;32mtest-global2.gob passed![0m
+==================================
+Testing: test-global3.gob
+[0;32mtest-global3.gob passed![0m
+==================================
+Testing: test-hello.gob
+[0;32mtest-hello.gob passed![0m
+==================================
+Testing: test-if1.gob
+[0;32mtest-if1.gob passed![0m
+==================================
+Testing: test-if2.gob
+[0;32mtest-if2.gob passed![0m
+==================================
+Testing: test-if3.gob
+[0;32mtest-if3.gob passed![0m
+==================================
+Testing: test-if4.gob
+[0;32mtest-if4.gob passed![0m
+==================================
+Testing: test-if5.gob
+[0;32mtest-if5.gob passed![0m
+==================================
+Testing: test-is.gob
+[0;32mtest-is.gob passed![0m
+==================================
+Testing: test-local1.gob
+[0;32mtest-local1.gob passed![0m
+==================================
+Testing: test-local2.gob
+[0;32mtest-local2.gob passed![0m
+==================================
+Testing: test-move.gob
+[0;32mtest-move.gob passed![0m
+==================================
+Testing: test-ops1.gob
+[0;32mtest-ops1.gob passed![0m
+==================================
+Testing: test-ops2.gob
+[0;32mtest-ops2.gob passed![0m
+==================================
+Testing: test-peek.gob
+[0;32mtest-peek.gob passed![0m
+==================================
+Testing: test-place.gob
+[0;32mtest-place.gob passed![0m
+==================================
+Testing: test-remove.gob
+[0;32mtest-remove.gob passed![0m
+==================================
+Testing: test-row.gob
+[0;32mtest-row.gob passed![0m
+==================================
+Testing: test-var1.gob
+[0;32mtest-var1.gob passed![0m
+==================================
+Testing: test-while1.gob
+[0;32mtest-while1.gob passed![0m
+==================================
+Testing: test-while2.gob
+[0;32mtest-while2.gob passed![0m
+==================================
+Testing: fail-assign1.gob
+[0;31mfail-assign1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+==================================
+Testing: fail-assign2.gob
+[0;31mfail-assign2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+==================================
+Testing: fail-assign3.gob
+[0;31mfail-assign3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead1.gob
+[0;31mfail-dead1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead2.gob
+[0;31mfail-dead2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for1.gob
+[0;31mfail-for1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for2.gob
+[0;31mfail-for2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for3.gob
+[0;31mfail-for3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for4.gob
+[0;31mfail-for4.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for5.gob
+[0;31mfail-for5.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func1.gob
+[0;31mfail-func1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("duplicate function bar")
+
+Generated Output:
+Fatal error: exception Failure("duplicate function bar")
+
+==================================
+Testing: fail-func2.gob
+[0;31mfail-func2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func3.gob
+[0;31mfail-func3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func4.gob
+[0;31mfail-func4.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("function getKey may not be defined")
+
+Generated Output:
+Fatal error: exception Failure("function getKey may not be defined")
+
+==================================
+Testing: fail-func5.gob
+[0;31mfail-func5.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("expecting 2 arguments in foo(55)")
+
+Generated Output:
+Fatal error: exception Failure("expecting 2 arguments in foo(55)")
+
+==================================
+Testing: fail-func6.gob
+[0;31mfail-func6.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: test-add1.gob
+[0;31mtest-add1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-arith1.gob
+[0;31mtest-arith1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-arith2.gob
+[0;31mtest-arith2.gob FAILED[0m
+Expected Output:
+11
+
+Generated Output:
+11
+
+==================================
+Testing: test-arith3.gob
+[0;31mtest-arith3.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+47
+
+==================================
+Testing: test-col.gob
+[0;31mtest-col.gob FAILED[0m
+Expected Output:
+0
+
+Generated Output:
+0
+
+==================================
+Testing: test-fib.gob
+[0;31mtest-fib.gob FAILED[0m
+Expected Output:
+1
+1
+2
+3
+5
+8
+
+Generated Output:
+1
+1
+2
+3
+5
+8
+
+==================================
+Testing: test-field.gob
+[0;31mtest-field.gob FAILED[0m
+Expected Output:
+5
+
+Generated Output:
+5
+
+==================================
+Testing: test-field1.gob
+[0;31mtest-field1.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+2
+
+==================================
+Testing: test-for1.gob
+[0;31mtest-for1.gob FAILED[0m
+Expected Output:
+0
+1
+2
+3
+4
+42
+
+Generated Output:
+0
+1
+2
+3
+4
+42
+
+==================================
+Testing: test-func1.gob
+[0;31mtest-func1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-func2.gob
+[0;31mtest-func2.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+2
+
+==================================
+Testing: test-func3.gob
+[0;31mtest-func3.gob FAILED[0m
+Expected Output:
+42
+17
+192
+8
+
+Generated Output:
+42
+17
+192
+8
+
+==================================
+Testing: test-func4.gob
+[0;31mtest-func4.gob FAILED[0m
+Expected Output:
+62
+
+Generated Output:
+62
+
+==================================
+Testing: test-func5.gob
+[0;31mtest-func5.gob FAILED[0m
+Expected Output:
+
+Generated Output:
+
+==================================
+Testing: test-func6.gob
+[0;31mtest-func6.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-func7.gob
+[0;31mtest-func7.gob FAILED[0m
+Expected Output:
+115
+
+Generated Output:
+115
+
+==================================
+Testing: test-func8.gob
+[0;31mtest-func8.gob FAILED[0m
+Expected Output:
+43
+
+Generated Output:
+43
+
+==================================
+Testing: test-gcd.gob
+[0;31mtest-gcd.gob FAILED[0m
+Expected Output:
+2
+3
+11
+
+Generated Output:
+2
+3
+11
+
+==================================
+Testing: test-gcd2.gob
+[0;31mtest-gcd2.gob FAILED[0m
+Expected Output:
+7
+4
+11
+
+Generated Output:
+7
+4
+11
+
+==================================
+Testing: test-global1.gob
+[0;31mtest-global1.gob FAILED[0m
+Expected Output:
+42
+21
+43
+22
+
+Generated Output:
+42
+21
+43
+22
+
+==================================
+Testing: test-global2.gob
+[0;31mtest-global2.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-global3.gob
+[0;31mtest-global3.gob FAILED[0m
+Expected Output:
+1
+0
+
+Generated Output:
+1
+0
+
+==================================
+Testing: test-hello.gob
+[0;31mtest-hello.gob FAILED[0m
+Expected Output:
+42
+71
+1
+
+Generated Output:
+42
+71
+1
+
+==================================
+Testing: test-if1.gob
+[0;31mtest-if1.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-if2.gob
+[0;31mtest-if2.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-if3.gob
+[0;31mtest-if3.gob FAILED[0m
+Expected Output:
+17
+
+Generated Output:
+17
+
+==================================
+Testing: test-if4.gob
+[0;31mtest-if4.gob FAILED[0m
+Expected Output:
+8
+17
+
+Generated Output:
+8
+17
+
+==================================
+Testing: test-if5.gob
+[0;31mtest-if5.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-is.gob
+[0;31mtest-is.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-local1.gob
+[0;31mtest-local1.gob FAILED[0m
+Expected Output:
+84
+
+Generated Output:
+84
+
+==================================
+Testing: test-local2.gob
+[0;31mtest-local2.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+47
+
+==================================
+Testing: test-move.gob
+[0;31mtest-move.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-ops1.gob
+[0;31mtest-ops1.gob FAILED[0m
+Expected Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+Generated Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+==================================
+Testing: test-ops2.gob
+[0;31mtest-ops2.gob FAILED[0m
+Expected Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+Generated Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+==================================
+Testing: test-peek.gob
+[0;31mtest-peek.gob FAILED[0m
+Expected Output:
+
+Generated Output:
+
+==================================
+Testing: test-place.gob
+[0;31mtest-place.gob FAILED[0m
+Expected Output:
+5
+
+Generated Output:
+5
+
+==================================
+Testing: test-remove.gob
+[0;31mtest-remove.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-row.gob
+[0;31mtest-row.gob FAILED[0m
+Expected Output:
+0
+
+Generated Output:
+0
+
+==================================
+Testing: test-var1.gob
+[0;31mtest-var1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-while1.gob
+[0;31mtest-while1.gob FAILED[0m
+Expected Output:
+5
+4
+3
+2
+1
+42
+
+Generated Output:
+5
+4
+3
+2
+1
+42
+
+==================================
+Testing: test-while2.gob
+[0;31mtest-while2.gob FAILED[0m
+Expected Output:
+14
+
+Generated Output:
+14
+
+==================================
+Testing: fail-assign1.gob
+[0;31mfail-assign1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+==================================
+Testing: fail-assign2.gob
+[0;31mfail-assign2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+==================================
+Testing: fail-assign3.gob
+[0;31mfail-assign3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead1.gob
+[0;31mfail-dead1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead2.gob
+[0;31mfail-dead2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for1.gob
+[0;31mfail-for1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for2.gob
+[0;31mfail-for2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for3.gob
+[0;31mfail-for3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for4.gob
+[0;31mfail-for4.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for5.gob
+[0;31mfail-for5.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func1.gob
+[0;31mfail-func1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("duplicate function bar")
+
+Generated Output:
+Fatal error: exception Failure("duplicate function bar")
+
+==================================
+Testing: fail-func2.gob
+[0;31mfail-func2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func3.gob
+[0;31mfail-func3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-func4.gob
+[0;31mfail-func4.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("function getKey may not be defined")
+
+Generated Output:
+Fatal error: exception Failure("function getKey may not be defined")
+
+==================================
+Testing: fail-func5.gob
+[0;31mfail-func5.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("expecting 2 arguments in foo(55)")
+
+Generated Output:
+Fatal error: exception Failure("expecting 2 arguments in foo(55)")
+
+==================================
+Testing: fail-func6.gob
+[0;31mfail-func6.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: test-add1.gob
+[0;31mtest-add1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-arith1.gob
+[0;31mtest-arith1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-arith2.gob
+[0;31mtest-arith2.gob FAILED[0m
+Expected Output:
+11
+
+Generated Output:
+11
+
+==================================
+Testing: test-arith3.gob
+[0;31mtest-arith3.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+47
+
+==================================
+Testing: test-col.gob
+[0;31mtest-col.gob FAILED[0m
+Expected Output:
+0
+
+Generated Output:
+0
+
+==================================
+Testing: test-fib.gob
+[0;31mtest-fib.gob FAILED[0m
+Expected Output:
+1
+1
+2
+3
+5
+8
+
+Generated Output:
+1
+1
+2
+3
+5
+8
+
+==================================
+Testing: test-field.gob
+[0;31mtest-field.gob FAILED[0m
+Expected Output:
+5
+
+Generated Output:
+5
+
+==================================
+Testing: test-field1.gob
+[0;31mtest-field1.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+2
+
+==================================
+Testing: test-for1.gob
+[0;31mtest-for1.gob FAILED[0m
+Expected Output:
+0
+1
+2
+3
+4
+42
+
+Generated Output:
+0
+1
+2
+3
+4
+42
+
+==================================
+Testing: test-func1.gob
+[0;31mtest-func1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-func2.gob
+[0;31mtest-func2.gob FAILED[0m
+Expected Output:
+2
+
+Generated Output:
+2
+
+==================================
+Testing: test-func3.gob
+[0;31mtest-func3.gob FAILED[0m
+Expected Output:
+42
+17
+192
+8
+
+Generated Output:
+42
+17
+192
+8
+
+==================================
+Testing: test-func4.gob
+[0;31mtest-func4.gob FAILED[0m
+Expected Output:
+62
+
+Generated Output:
+62
+
+==================================
+Testing: test-func5.gob
+[0;31mtest-func5.gob FAILED[0m
+Expected Output:
+
+Generated Output:
+
+==================================
+Testing: test-func6.gob
+[0;31mtest-func6.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-func7.gob
+[0;31mtest-func7.gob FAILED[0m
+Expected Output:
+115
+
+Generated Output:
+115
+
+==================================
+Testing: test-func8.gob
+[0;31mtest-func8.gob FAILED[0m
+Expected Output:
+43
+
+Generated Output:
+43
+
+==================================
+Testing: test-gcd.gob
+[0;31mtest-gcd.gob FAILED[0m
+Expected Output:
+2
+3
+11
+
+Generated Output:
+2
+3
+11
+
+==================================
+Testing: test-gcd2.gob
+[0;31mtest-gcd2.gob FAILED[0m
+Expected Output:
+7
+4
+11
+
+Generated Output:
+7
+4
+11
+
+==================================
+Testing: test-global1.gob
+[0;31mtest-global1.gob FAILED[0m
+Expected Output:
+42
+21
+43
+22
+
+Generated Output:
+42
+21
+43
+22
+
+==================================
+Testing: test-global2.gob
+[0;31mtest-global2.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-global3.gob
+[0;31mtest-global3.gob FAILED[0m
+Expected Output:
+1
+0
+
+Generated Output:
+1
+0
+
+==================================
+Testing: test-hello.gob
+[0;31mtest-hello.gob FAILED[0m
+Expected Output:
+42
+71
+1
+
+Generated Output:
+42
+71
+1
+
+==================================
+Testing: test-if1.gob
+[0;31mtest-if1.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-if2.gob
+[0;31mtest-if2.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-if3.gob
+[0;31mtest-if3.gob FAILED[0m
+Expected Output:
+17
+
+Generated Output:
+17
+
+==================================
+Testing: test-if4.gob
+[0;31mtest-if4.gob FAILED[0m
+Expected Output:
+8
+17
+
+Generated Output:
+8
+17
+
+==================================
+Testing: test-if5.gob
+[0;31mtest-if5.gob FAILED[0m
+Expected Output:
+42
+17
+
+Generated Output:
+42
+17
+
+==================================
+Testing: test-is.gob
+[0;31mtest-is.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-local1.gob
+[0;31mtest-local1.gob FAILED[0m
+Expected Output:
+84
+
+Generated Output:
+84
+
+==================================
+Testing: test-local2.gob
+[0;31mtest-local2.gob FAILED[0m
+Expected Output:
+47
+
+Generated Output:
+47
+
+==================================
+Testing: test-move.gob
+[0;31mtest-move.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-ops1.gob
+[0;31mtest-ops1.gob FAILED[0m
+Expected Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+Generated Output:
+3
+-1
+2
+50
+99
+0
+1
+99
+1
+0
+99
+1
+0
+99
+1
+1
+0
+99
+0
+1
+99
+0
+1
+1
+
+==================================
+Testing: test-ops2.gob
+[0;31mtest-ops2.gob FAILED[0m
+Expected Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+Generated Output:
+1
+0
+1
+0
+0
+0
+1
+1
+1
+0
+1
+0
+-10
+42
+
+==================================
+Testing: test-peek.gob
+[0;31mtest-peek.gob FAILED[0m
+Expected Output:
+
+Generated Output:
+
+==================================
+Testing: test-place.gob
+[0;31mtest-place.gob FAILED[0m
+Expected Output:
+5
+
+Generated Output:
+5
+
+==================================
+Testing: test-remove.gob
+[0;31mtest-remove.gob FAILED[0m
+Expected Output:
+1
+
+Generated Output:
+1
+
+==================================
+Testing: test-row.gob
+[0;31mtest-row.gob FAILED[0m
+Expected Output:
+0
+
+Generated Output:
+0
+
+==================================
+Testing: test-var1.gob
+[0;31mtest-var1.gob FAILED[0m
+Expected Output:
+42
+
+Generated Output:
+42
+
+==================================
+Testing: test-while1.gob
+[0;31mtest-while1.gob FAILED[0m
+Expected Output:
+5
+4
+3
+2
+1
+42
+
+Generated Output:
+5
+4
+3
+2
+1
+42
+
+==================================
+Testing: test-while2.gob
+[0;31mtest-while2.gob FAILED[0m
+Expected Output:
+14
+
+Generated Output:
+14
+
+==================================
+Testing: fail-assign1.gob
+[0;31mfail-assign1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment num = bool in i = false")
+
+==================================
+Testing: fail-assign2.gob
+[0;31mfail-assign2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+Generated Output:
+Fatal error: exception Failure("illegal assignment bool = num in b = 48")
+
+==================================
+Testing: fail-assign3.gob
+[0;31mfail-assign3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead1.gob
+[0;31mfail-dead1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-dead2.gob
+[0;31mfail-dead2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for1.gob
+[0;31mfail-for1.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for2.gob
+[0;31mfail-for2.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for3.gob
+[0;31mfail-for3.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+Fatal error: exception Parsing.Parse_error
+
+==================================
+Testing: fail-for4.gob
+[0;31mfail-for4.gob FAILED[0m
+Expected Output:
+Fatal error: exception Parsing.Parse_error
+
+Generated Output:
+==================================
+Testing: fail-assign1.gob
+[0;32mfail-assign1.gob passed![0m
+==================================
+Testing: fail-assign2.gob
+[0;32mfail-assign2.gob passed![0m
+==================================
+Testing: fail-assign3.gob
+[0;32mfail-assign3.gob passed![0m
+==================================
+Testing: fail-dead1.gob
+[0;32mfail-dead1.gob passed![0m
+==================================
+Testing: fail-dead2.gob
+[0;32mfail-dead2.gob passed![0m
+==================================
+Testing: fail-for1.gob
+[0;32mfail-for1.gob passed![0m
+==================================
+Testing: fail-for2.gob
+[0;32mfail-for2.gob passed![0m
+==================================
+Testing: fail-for3.gob
+[0;32mfail-for3.gob passed![0m
+==================================
+Testing: fail-for4.gob
+[0;32mfail-for4.gob passed![0m
+==================================
+Testing: fail-for5.gob
+[0;32mfail-for5.gob passed![0m
+==================================
+Testing: fail-func1.gob
+[0;32mfail-func1.gob passed![0m
+==================================
+Testing: fail-func2.gob
+[0;32mfail-func2.gob passed![0m
+==================================
+Testing: fail-func3.gob
+[0;32mfail-func3.gob passed![0m
+==================================
+Testing: fail-func4.gob
+[0;32mfail-func4.gob passed![0m
+==================================
+Testing: fail-func5.gob
+[0;32mfail-func5.gob passed![0m
+==================================
+Testing: fail-func6.gob
+[0;32mfail-func6.gob passed![0m
+==================================
+Testing: test-add1.gob
+[0;32mtest-add1.gob passed![0m
+==================================
+Testing: test-arith1.gob
+[0;32mtest-arith1.gob passed![0m
+==================================
+Testing: test-arith2.gob
+[0;32mtest-arith2.gob passed![0m
+==================================
+Testing: test-arith3.gob
+[0;32mtest-arith3.gob passed![0m
+==================================
+Testing: test-col.gob
+[0;32mtest-col.gob passed![0m
+==================================
+Testing: test-fib.gob
+[0;32mtest-fib.gob passed![0m
+==================================
+Testing: test-field.gob
+[0;32mtest-field.gob passed![0m
+==================================
+Testing: test-field1.gob
+[0;32mtest-field1.gob passed![0m
+==================================
+Testing: test-for1.gob
+[0;32mtest-for1.gob passed![0m
+==================================
+Testing: test-func1.gob
+[0;32mtest-func1.gob passed![0m
+==================================
+Testing: test-func2.gob
+[0;32mtest-func2.gob passed![0m
+==================================
+Testing: test-func3.gob
+[0;32mtest-func3.gob passed![0m
+==================================
+Testing: test-func4.gob
+[0;32mtest-func4.gob passed![0m
+==================================
+Testing: test-func5.gob
+[0;32mtest-func5.gob passed![0m
+==================================
+Testing: test-func6.gob
+[0;32mtest-func6.gob passed![0m
+==================================
+Testing: test-func7.gob
+[0;32mtest-func7.gob passed![0m
+==================================
+Testing: test-func8.gob
+[0;32mtest-func8.gob passed![0m
+==================================
+Testing: test-gcd.gob
+[0;32mtest-gcd.gob passed![0m
+==================================
+Testing: test-gcd2.gob
+[0;32mtest-gcd2.gob passed![0m
+==================================
+Testing: test-global1.gob
+[0;32mtest-global1.gob passed![0m
+==================================
+Testing: test-global2.gob
+[0;32mtest-global2.gob passed![0m
+==================================
+Testing: test-global3.gob
+[0;32mtest-global3.gob passed![0m
+==================================
+Testing: test-hello.gob
+[0;32mtest-hello.gob passed![0m
+==================================
+Testing: test-if1.gob
+[0;32mtest-if1.gob passed![0m
+==================================
+Testing: test-if2.gob
+[0;32mtest-if2.gob passed![0m
+==================================
+Testing: test-if3.gob
+[0;32mtest-if3.gob passed![0m
+==================================
+Testing: test-if4.gob
+[0;32mtest-if4.gob passed![0m
+==================================
+Testing: test-if5.gob
+[0;32mtest-if5.gob passed![0m
+==================================
+Testing: test-is.gob
+[0;32mtest-is.gob passed![0m
+==================================
+Testing: test-local1.gob
+[0;32mtest-local1.gob passed![0m
+==================================
+Testing: test-local2.gob
+[0;32mtest-local2.gob passed![0m
+==================================
+Testing: test-move.gob
+[0;32mtest-move.gob passed![0m
+==================================
+Testing: test-ops1.gob
+[0;32mtest-ops1.gob passed![0m
+==================================
+Testing: test-ops2.gob
+[0;32mtest-ops2.gob passed![0m
+==================================
+Testing: test-peek.gob
+[0;32mtest-peek.gob passed![0m
+==================================
+Testing: test-place.gob
+[0;32mtest-place.gob passed![0m
+==================================
+Testing: test-remove.gob
+[0;32mtest-remove.gob passed![0m
+==================================
+Testing: test-row.gob
+[0;32mtest-row.gob passed![0m
+==================================
+Testing: test-var1.gob
+[0;32mtest-var1.gob passed![0m
+==================================
+Testing: test-while1.gob
+[0;32mtest-while1.gob passed![0m
+==================================
+Testing: test-while2.gob
+[0;32mtest-while2.gob passed![0m

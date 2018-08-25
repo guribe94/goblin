@@ -1,0 +1,8 @@
+world[20,40] {
+  place(player, 0, 0);
+  exit;
+}
+entities {
+  @:player {}
+}
+functions {}

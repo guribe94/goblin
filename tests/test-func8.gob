@@ -1,0 +1,12 @@
+world[1,1] {
+  foo(40);
+
+  exit;
+}
+entities {}
+functions {
+bool foo(num a)
+{
+  print(a + 3);
+}
+}

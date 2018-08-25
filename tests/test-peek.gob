@@ -1,0 +1,13 @@
+world[20,40] {
+  entity e;
+  place(player, 0, 0);
+  peek(0, 0);
+  peek(1, 1);
+  e = peek(0,0);
+  e = peek(1,1);
+  exit;
+}
+entities {
+  @:player {}
+}
+functions {}

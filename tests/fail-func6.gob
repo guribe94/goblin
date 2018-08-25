@@ -1,0 +1,33 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+
+  num foo(int a, bool b)
+  {
+  }
+
+
+  bool foo(num a, bool b)   /* This should cause an error. We don't allow redefining functions */
+
+  {
+    return true;
+  }
+
+  bool test(entity p) {
+    foo(true);
+    foo(3, false);
+    return true;
+  }
+}

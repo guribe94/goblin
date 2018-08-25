@@ -1,0 +1,25 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+
+  int foo(int a, bool b, int c) { }
+
+  void bar(int a, void b, int c) {} /* Error: illegal void formal b */
+
+  bool test(entity p) {
+
+    return true;
+  }
+}

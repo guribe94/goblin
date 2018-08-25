@@ -1,0 +1,14 @@
+world[1,1] {
+  foo(true);
+  exit;
+}
+entities {}
+functions {
+bool foo(bool i)
+{
+  num i; /* Should hide the formal i */
+
+  i = 42;
+  print(i + i);
+}
+}

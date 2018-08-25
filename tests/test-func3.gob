@@ -1,0 +1,15 @@
+world[1,1] {
+  printem(42,17,192,8);
+
+  exit;
+}
+entities {}
+functions {
+bool printem(num a, num b, num c, num d)
+{
+  print(a);
+  print(b);
+  print(c);
+  print(d);
+}
+}

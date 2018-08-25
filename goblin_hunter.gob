@@ -1,0 +1,145 @@
+world[20,60] {
+    num i;
+    num j;
+    for(i = 0; i < rows; i += rows - 1) {
+      for(j = 0; j < cols; j += 1) {
+        place(wall, i, j);
+      }
+    }
+    for(i = 0; i < rows; i += 1) {
+      for(j = 0; j < cols; j += cols - 1) {
+        place(wall, i, j);
+      }
+    }
+    place(goblin, 5, 10);
+    place(goblin, 15, 35);
+    place(goblin, 16, 15);
+    place(trap, 11, 35);
+    place(trap, 15, 20);
+    place(trap, 5, 5);
+    place(player, 5, 5);
+}
+entities {
+  @:player {
+    num attack;
+    num lives_left;
+    build {
+      this.attack = 5;
+      this.lives_left = 3;
+    }
+    does {
+      playerMove(this);
+    }
+  }
+  g:goblin {
+    num health;
+    num k;
+    build {
+      this.health = 5;
+      this.k = 0;
+    }
+    does {
+      goblinMove(this);
+    }
+  }
+  T:trap {}
+  #:wall {}
+}
+functions {
+  bool playerMove(entity p) {
+    num r;
+    num c;
+    char k;
+    bool moved;
+    moved = false;
+    r = row(p);
+    c = col(p);
+    prints("Press wasd to move or q to quit");
+    while(not moved) {
+      k = getKey();
+      if(k == 'w' and r > 0) {
+        if(moveOrAttack(p, r - 1, c)) {
+          moved = true;
+        }
+      } else if(k == 'a' and c > 0) {
+        if(moveOrAttack(p, r, c - 1)) {
+          moved = true;
+        }
+      } else if(k == 's' and r < rows - 1) {
+        if(moveOrAttack(p, r + 1, c)) {
+          moved = true;
+        }
+      } else if(k == 'd' and r < cols - 1) {
+        if(moveOrAttack(p, r, c + 1)) {
+          moved = true;
+        }
+      } else if(k == 'q') {
+        exit;
+        moved = true;
+      }
+    }
+    return true;
+  }
+
+  bool goblinMove(entity p) {
+    num r;
+    num c;
+    num k;
+    r = row(p);
+    c = col(p);
+    if(r % 2 == 1) {
+      k = 1;
+    }
+    if(k == 0) {
+      moveIfEmpty(p, r - 1, c);
+      k = 1;
+    } else if(k == 1) {
+      moveIfEmpty(p, r, c - 1);
+      k = 2;
+    } else if(k == 2) {
+      moveIfEmpty(p, r + 1, c );
+      k = 3;
+    } else if(k == 3) {
+      moveIfEmpty(p, r, c + 1);
+      k = 4;
+    } else if(k == 4) {
+      k = 0;
+    }
+    return true;
+  }
+
+  bool moveIfEmpty(entity p, num r, num c) {
+    entity e;
+    e = peek(r, c);
+    if(e is empty) {
+       move(p, r, c);
+       return true;
+    }
+    return false;
+  }
+
+  bool moveOrAttack(entity p, num r, num c) {
+    entity e;
+    e = peek(r, c);
+    if(e is goblin) {
+      e.health -= p.attack;
+      prints("dealt 5 damage to goblin");
+      if(e.health <= 0) {
+        prints("killed goblin! press any key to continue");
+        getKey();
+        remove(e);
+        move(p, r, c);
+      } 
+    }
+    else if(e is trap) {
+      prints("stepped on a trap! you are dead!");
+      exit;
+    }
+    else if (e is empty) {
+       move(p, r, c);
+    } else {
+      return false;
+    }
+    return true;
+  }
+}

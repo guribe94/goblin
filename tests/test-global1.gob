@@ -1,0 +1,28 @@
+world[1,1] {
+  rows = 42;
+  cols = 21;
+  printa();
+  printb();
+  incab();
+  printa();
+  printb();
+  exit;
+}
+entities {}
+functions {
+bool printa()
+{
+  print(rows);
+}
+
+bool printb()
+{
+  print(cols);
+}
+
+bool incab()
+{
+  rows = rows + 1;
+  cols = cols + 1;
+}
+}

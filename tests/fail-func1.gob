@@ -1,0 +1,28 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+  num foo() {}
+
+  num bar() {}
+
+  num baz() {}
+
+  bool bar() {} /* Error: duplicate function bar */
+
+  bool test(entity p) {
+
+    return true;
+  }
+}

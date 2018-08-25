@@ -1,0 +1,18 @@
+world[1,1] {
+  print(cond(true));
+  print(cond(false));
+  exit;
+}
+entities {}
+functions {
+num cond(bool b)
+{
+  num x;
+  if (b)
+    x = 42;
+  else
+    x = 17;
+  return x;
+}
+
+}

@@ -1,0 +1,15 @@
+world[1,1] {
+  num d;
+  d = add(52, 10);
+  print(d);
+  exit;
+}
+entities {}
+functions {
+num add(num a, num b)
+{
+  num c;
+  c = a + b;
+  return c;
+}
+}

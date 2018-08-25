@@ -1,0 +1,17 @@
+world[20,40] {
+  entity e;
+  place(player, 0, 0);
+  e = peek(0,0);
+  e.x = 2;
+  print(e.x);
+  exit;
+}
+entities {
+  @:player {
+    num x;
+    build {
+      this.x = 5;
+    }
+  }
+}
+functions {}

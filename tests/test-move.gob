@@ -1,0 +1,12 @@
+world[20,40] {
+  place(player, 0, 0);
+  move(peek(0, 0), 1, 1);
+  if(peek(1,1) is player) {
+    print(1);
+  }
+  exit;
+}
+entities {
+  @:player {}
+}
+functions {}

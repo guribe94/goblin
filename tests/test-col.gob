@@ -1,0 +1,11 @@
+world[20,40] {
+  entity e;
+  place(player, 0, 0);
+  e = peek(0, 0);
+  print(col(e));
+  exit;
+}
+entities {
+  @:player {}
+}
+functions {}

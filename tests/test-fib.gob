@@ -1,0 +1,18 @@
+world[1,1] {
+  print(fib(0));
+  print(fib(1));
+  print(fib(2));
+  print(fib(3));
+  print(fib(4));
+  print(fib(5));
+
+  exit;
+}
+entities {}
+functions {
+num fib(num x)
+{
+  if (x < 2) return 1;
+  return fib(x-1) + fib(x-2);
+}
+}

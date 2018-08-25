@@ -1,0 +1,8 @@
+world[1,1] {
+  num a;
+  a = 42;
+  print(a);
+  exit;
+}
+entities {}
+functions {}

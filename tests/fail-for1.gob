@@ -1,0 +1,27 @@
+world[20,40] {
+
+}
+entities {
+  @:player {
+    build {
+    }
+    does {
+      test(this);
+      exit;
+    }
+  }
+
+}
+functions {
+  bool test(entity p) {
+    int i;
+    for ( ; true ; ) {} /* OK: Forever */
+
+    for (i = 0 ; i < 10 ; i = i + 1) {
+      if (i == 3) return 42;
+    }
+
+    for (j = 0; i < 10 ; i = i + 1) {} /* j undefined */
+    return true;
+  }
+}

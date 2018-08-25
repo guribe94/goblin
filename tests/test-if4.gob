@@ -1,0 +1,7 @@
+world[1,1] {
+  if (false) print(42); else print(8);
+  print(17);
+  exit;
+}
+entities {}
+functions {}

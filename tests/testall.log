@@ -1,0 +1,13 @@
+/usr/local/opt/llvm/bin/lli
+
+###### Testing test-*
+./microc.native < tests/test-*.gob > test-*.ll
+../testall.sh: line 57: tests/test-*.gob: No such file or directory
+###### FAILED
+
+###### Testing fail-*
+./microc.native < tests/fail-*.gob 2> fail-assign1.gob.err fail-assign2.gob.err fail-assign3.gob.err fail-dead1.gob.err fail-dead2.gob.err fail-expr1.gob.err fail-expr2.gob.err fail-for1.gob.err fail-for2.gob.err fail-for3.gob.err fail-for4.gob.err fail-for5.gob.err fail-func1.gob.err fail-func2.gob.err fail-func3.gob.err fail-func4.gob.err fail-func5.gob.err fail-func6.gob.err fail-func7.gob.err fail-func8.gob.err fail-func9.gob.err fail-global1.gob.err fail-global2.gob.err fail-if1.gob.err fail-if2.gob.err fail-if3.gob.err fail-nomain.gob.err fail-return1.gob.err fail-return2.gob.err fail-while1.gob.err fail-while2.gob.err >> testall.log
+../testall.sh: line 67: tests/fail-*.gob: No such file or directory
+diff -b fail-assign1.gob.err fail-assign2.gob.err > fail-assign3.gob.err
+FAILED fail-assign1.gob.err differs from fail-assign2.gob.err
+###### FAILED

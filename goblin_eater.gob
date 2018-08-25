@@ -1,0 +1,78 @@
+world[20,40] {
+    num i;
+    num j;
+    for(i = 0; i < 20; i += 1) {
+      for(j = 0; j < 40; j += 1) {
+        place(goblin, i, j);
+      }
+    }
+    place(player, 10, 30);
+}
+entities {
+  @:player {
+    num attack;
+    build {
+      this.attack = 5;
+    }
+    does {
+      playerMove(this);
+      prints("Press q to quit or any other key to end turn");
+      if(getKey() == 'q') {
+        exit;
+      }
+    }
+  }
+  g:goblin {
+    num health;
+    build {
+      this.health = 10;
+    }
+  }
+}
+functions {
+  bool playerMove(entity p) {
+    num r;
+    num c;
+    char k;
+    bool moved;
+    moved = false;
+    r = row(p);
+    c = col(p);
+    prints("Press wasd to move or q to quit");
+    while(not moved) {
+      k = getKey();
+      if(k == 'w' and r > 0) {
+        moveOrAttack(p, r - 1, c);
+        moved = true;
+      } else if(k == 'a' and c > 0) {
+        moveOrAttack(p, r, c - 1);
+        moved = true;
+      } else if(k == 's' and r < rows) {
+        moveOrAttack(p, r + 1, c);
+        moved = true;
+      } else if(k == 'd' and c < cols) {
+        moveOrAttack(p, r, c + 1);
+        moved = true;
+      } else if(k == 'q') {
+        exit;
+        moved = true;
+      }
+    }
+    return true;
+  }
+  bool moveOrAttack(entity p, num r, num c) {
+    entity e;
+    e = peek(r, c);
+    if(e is empty) {
+      move(p, r, c);
+    } else if(e is goblin) {
+      e.health -= p.attack;
+      prints("dealt 5 damage to goblin");
+      if(e.health <= 0) {
+        prints("killed goblin");
+        remove(e);
+        move(p, r, c);
+      } 
+    }
+  }
+}
